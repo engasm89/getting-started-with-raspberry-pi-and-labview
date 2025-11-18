@@ -1,3 +1,11 @@
+/*
+ * Course: Getting Started With Raspberry Pi And Labview
+ * Platform: Raspberry Pi
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for LabVIEW-friendly prints
 #include <unistd.h> // Include POSIX sleep functions
 
@@ -10,6 +18,7 @@ int gpio_set_direction(int gpio, int output) { return 0; } // Set direction
 int gpio_write(int gpio, int value) { return 0; } // Write value
 
 // Program entry point
+// Main routine: orchestrates the getting started with raspberry pi and labview scenario
 int main(void) { // Start of main function
   printf("LabVIEW Link Demo: send 'ON'/'OFF' to control LED\n"); // Startup message
   gpio_export(LED_GPIO); // Export LED GPIO
